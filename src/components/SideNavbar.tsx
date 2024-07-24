@@ -26,13 +26,13 @@ export default function SideNavbar({}: Props) {
   }
 
   return (
-    <div className="relative min-w-[80px] border-r px-3 pb-10 pt-24">
+    <div className="relative min-w-[80px] border-r px-3 pb-10 pt-24 text-orange-400 hover:text-orange-600">
       {!mobileWidth && (
         <div className="rounded-full p-2">
           <Button
             onClick={toggleSidebar}
             variant="secondary"
-            className="absolute right-[-20px] top-7 rounded-full p-2"
+            className="absolute right-[-20px] top-7 rounded-full bg-orange-500 text-white hover:bg-orange-600 p-2"
           >
             <ChevronRight />
           </Button>
