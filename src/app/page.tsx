@@ -1,32 +1,34 @@
 import PageTitle from "@/components/ui/PageTitle";
 import Image from "next/image";
-import { DollarSign , CreditCard ,Users,Activity} from 'lucide-react';
+import { DollarSign , CreditCard ,Users,Activity } from 'lucide-react';
 import Card, { CardContent, CardProps } from "@/components/ui/Card";
 import BarChart from "@/components/ui/BarChart";
 import SalesCard, { SalesProps } from "@/components/ui/SalesCard";
+import { IndianRupee } from "lucide-react";
+
 
 const cardData : CardProps[]=[
   {
     label:"Total Revenue",
-    amount:"$45,231.89",
+    amount:"₹45,231.89",
     description:"+20.1% from last month",
-    icon:DollarSign,
+    icon:IndianRupee,
   },
   {
     label:"Subscription",
-    amount:"$2350",
+    amount:"₹2350",
     description:"+180.1% from last month",
     icon:Users,
   },
   {
-    label:"Slaes",
-    amount:"$13,500.34",
+    label:"Sales",
+    amount:"₹13,500.34",
     description:"+16.8% from last month",
     icon:CreditCard,
   },
   {
     label:"Active Now",
-    amount:"$465",
+    amount:"₹465",
     description:"+25.1% from last month",
     icon:Activity,
   }
@@ -36,27 +38,27 @@ const userSalesData : SalesProps[] =[
   {
     name: "Olivia Martin",
     email: "olivia.martin@email.com",
-    saleAmount: "+$1,999.00"
+    saleAmount: "+₹1,999.00"
   },
   {
     name: "Jackson Lee",
     email: "isabella.nguyen@email.com",
-    saleAmount: "+$1,999.00"
+    saleAmount: "+₹1,999.00"
   },
   {
     name: "Isabella Nguyen",
     email: "isabella.nguyen@email.com",
-    saleAmount: "+$39.00"
+    saleAmount: "+₹39.00"
   },
   {
     name: "William Kim",
     email: "will@email.com",
-    saleAmount: "+$299.00"
+    saleAmount: "+₹299.00"
   },
   {
     name: "Sofia Davis",
     email: "sofia.davis@email.com",
-    saleAmount: "+$39.00"
+    saleAmount: "+₹39.00"
   }
 ]
 
