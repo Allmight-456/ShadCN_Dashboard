@@ -1,3 +1,72 @@
+# Next.js Dashboard with ShadCN UI
+
+A modern dashboard application built with Next.js, TypeScript, and ShadCN UI library. This project features a responsive sidebar navigation and various data visualization components.
+
+## Features
+
+- Responsive sidebar navigation
+- Dashboard with BarChart, SalesCard, and Card components
+- Users, Settings, and Orders pages with ShadCN UI components
+- Data tables powered by TanStack Table
+- Charts using Recharts library
+- Tooltips and custom UI components
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- ShadCN UI
+- TanStack Table
+- Recharts
+- React Hooks (including @react-hook/window-size)
+
+## Project Structure
+components/
+├── ui/
+│   ├── BarChart.jsx
+│   ├── Button.jsx
+│   ├── Card.jsx
+│   ├── DataTable.jsx
+│   ├── Nav.jsx
+│   ├── PageTitle.jsx
+│   ├── SalesCard.jsx
+│   ├── Table.jsx
+│   └── Tooltip.jsx
+├── SideNavbar.tsx
+pages/
+├── Dashboard.tsx
+├── Users.tsx
+├── Settings.tsx
+└── Orders.tsx
+
+## Setup and Installation
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
+
+## Usage
+
+The application features a toggleable sidebar navigation that persists across all pages. The Dashboard page showcases three main components: BarChart, SalesCard, and Card, all of which share the sidebar toggle functionality.
+
+## Dependencies
+
+- @tanstack/react-table
+- recharts
+- @react-hook/window-size
+- shadcn/ui components (Table, Tooltip, Button)
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome. Feel free to check issues page if you want to contribute.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
