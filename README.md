@@ -1,7 +1,7 @@
 # Next.js Dashboard with ShadCN UI
 
 A modern dashboard application built with Next.js, TypeScript, and ShadCN UI library. This project features a responsive sidebar navigation and various data visualization components.
-
+Have a go at how components render in WebApp [Dashboard_UI_ShadCN](https://dashboard-ui-shadcn.netlify.app/)
 ## Features
 
 - Responsive sidebar navigation
