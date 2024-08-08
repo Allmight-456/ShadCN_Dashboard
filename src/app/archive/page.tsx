@@ -4,6 +4,6 @@ type Props = {}
 
 export default function ArchivePage({}: Props) {
   return (
-    <div>ArchivePage</div>
+    <div className='font-bold text-lg'>ArchivePage</div>
   )
 }

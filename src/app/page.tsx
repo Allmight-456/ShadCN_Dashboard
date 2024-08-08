@@ -1,6 +1,5 @@
 import PageTitle from "@/components/ui/PageTitle";
-import Image from "next/image";
-import { DollarSign , CreditCard ,Users,Activity } from 'lucide-react';
+import {CreditCard ,Users,Activity } from 'lucide-react';
 import Card, { CardContent, CardProps } from "@/components/ui/Card";
 import BarChart from "@/components/ui/BarChart";
 import SalesCard, { SalesProps } from "@/components/ui/SalesCard";
@@ -66,8 +65,8 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-5">
       <PageTitle title="Dashboard" />
-      <section className="grid w-full grid-cols-1 gap-4 transition-all 
-      sm: grid-cols-2 xl:grid-cols-4 ">
+      <section className="grid w-full  gap-4 transition-all 
+      sm:grid-cols-2 xl:grid-cols-4 ">
         {/** in mapping of array we use two properties inbuilt to access elements of an array , named by us I can call it data , index */}
         {cardData.map((data,index) =>(
           <Card key={index}
